@@ -1,13 +1,13 @@
 /* -------------- MOBILE VIEW FIRST -------------- */
-@media (max-width: 580px) {
+@media (min-width: 360px) {
   /* Header */
   .navbar-toggler {
     background-color: white !important;
     font-size: 0.9rem !important;
   }
-  .navbar-nav{
+  .navbar-nav {
     text-align: center !important;
-  } 
+  }
   /* Main */
   body {
     overflow-x: hidden;
@@ -17,82 +17,203 @@
   }
   main {
     background-color: #273244;
-  }
-  .mainDiv {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-  }
-  .img-asset {
-    width: 80%;
-  }
-  .btn1 {
-    background-color: transparent;
-    border-radius: 2px;
-    border: solid 1px;
-    color: white;
-    padding: 0.3rem 1.5rem;
-  }
-  .btn2 {
-    background-color: #3871ff;
-    border-radius: 2px;
-    border: none;
-    color: white;
-    padding: 0.3rem 1.5rem;
+    .mainDiv {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+    }
+    .img-asset {
+      width: 80%;
+    }
+    .btn1 {
+      background-color: transparent;
+      border-radius: 2px;
+      border: solid 1px;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
+    .btn2 {
+      background-color: #3871ff;
+      border-radius: 2px;
+      border: none;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
   }
   /* Services Section */
   .services-section {
     background-color: #273244;
-  }
-  .cards-container {
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-  }
-  .card-img-top {
-    background-color: #3871ff;
-    border-radius: 50%;
-    padding: 1rem;
-    width: 5rem !important;
-    margin: auto;
-  }
-  .services-paragraph {
-    width: 80%;
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-img-top {
+      background-color: #3871ff;
+      border-radius: 50%;
+      padding: 1rem;
+      width: 5rem !important;
+      margin: auto;
+    }
+    .services-paragraph {
+      width: 80%;
+    }
   }
   /* Tech Section */
-  .section-tech {
+  .tech-section {
+    display: flex;
+    flex-direction: column;
     background-color: #3871ff;
     padding: 1.5rem !important;
-  }
-  .img-tech {
-    width: 3rem;
+    .img-tech {
+      width: 3rem;
+    }
   }
   /* BRANDS SECTION */
   .brands-section {
     background-color: white;
-  }
-  .brand-card {
-    background-color: #3871ff !important;
-  }
-  .btn-brand-card {
-    background-color: transparent !important;
-    color: white !important;
+    .brand-images-container {
+      display: flex;
+      gap: 1rem;
+    }
+    .brand-card {
+      background-color: #3871ff !important;
+    }
+    .btn-brand-card {
+      background-color: transparent !important;
+      color: white !important;
+    }
+    .img-brand {
+      width: 3rem;
+    }
   }
   /* FOOTER */
   footer {
     background-color: #273244;
   }
+  .footer-about-me {
+    padding-top: 1rem;
+    border-top: solid white 1px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
 /* ---------- TABLET VIEW ------------ */
-@media (max-width: 780px) {
-
+@media (min-width: 440px) {
+  /* Header */
+  .navbar-toggler {
+    background-color: white !important;
+    font-size: 0.9rem !important;
+  }
+  .navbar-nav {
+    text-align: center !important;
+  }
+  /* Main */
+  main {
+    background-color: #273244;
+    .mainDiv {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+    }
+    .img-asset {
+      width: 80%;
+    }
+    .btn1 {
+      background-color: transparent;
+      border-radius: 2px;
+      border: solid 1px;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
+    .btn2 {
+      background-color: #3871ff;
+      border-radius: 2px;
+      border: none;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
+  }
+  /* Services Section */
+  .services-section {
+    background-color: #273244;
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-img-top {
+      background-color: #3871ff;
+      border-radius: 50%;
+      padding: 1rem;
+      width: 5rem !important;
+      margin: auto;
+    }
+    .services-paragraph {
+      width: 80%;
+    }
+  }
+  /* Tech Section */
+  .tech-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #3871ff;
+    padding: 1.5rem !important;
+    .img-tech {
+      width: 3rem;
+    }
+  }
+  /* BRANDS SECTION */
+  .brands-section {
+    background-color: white;
+    .brand-images-container {
+      display: flex;
+      gap: 1rem;
+    }
+    .brand-card {
+      background-color: #3871ff !important;
+    }
+    .btn-brand-card {
+      background-color: transparent !important;
+      color: white !important;
+    }
+    .img-brand {
+      width: 3rem;
+    }
+  }
+  /* FOOTER */
+  footer {
+    background-color: #273244;
+  }
+  .footer-about-me {
+    padding-top: 1rem;
+    border-top: solid white 1px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
+/* ---------- TABLET II VIEW ------------ */
+@media (min-width: 660px) {
+  main {
+    background-color: #273244;
+    .mainDiv {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      width: 60%;
+      height: 80%;
+    }
+    .img-asset {
+      width: 60%;
+    }
+  }
+}
 /* --------------- DESKTOP VIEW ----------------- */
-@media (min-width: 781px) {
+@media (min-width: 980px) {
   /* Header */
   .navbar-personal {
     display: flex !important;
@@ -113,77 +234,130 @@
   }
   main {
     background-color: #273244;
-  }
-  .main-container {
-    justify-content: space-around;
-  }
-  .mainDiv{
-    width: 30%;
-    position: absolute;
-    left: 15%;
-  }
-  .img-asset {
-    width: 35%;
-  }
-  .btn1 {
-    background-color: transparent;
-    border-radius: 2px;
-    border: solid 1px;
-    color: white;
-    padding: 0.3rem 1.5rem;
-  }
-  .btn2 {
-    background-color: #3871ff;
-    border-radius: 2px;
-    border: none;
-    color: white;
-    padding: 0.3rem 1.5rem;
+    .main-container {
+      justify-content: space-around;
+    }
+    .mainDiv {
+      position: absolute;
+      left: 15%;
+      top: 40%;
+      width: 35%;
+      height: 80%;
+    }
+    .img-asset {
+      width: 40%;
+    }
+    .btn1 {
+      background-color: transparent;
+      border-radius: 2px;
+      border: solid 1px;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
+    .btn2 {
+      background-color: #3871ff;
+      border-radius: 2px;
+      border: none;
+      color: white;
+      padding: 0.3rem 1.5rem;
+    }
   }
   /* Services Section */
   .services-section {
     background-color: #273244;
-  }
-  .cards-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-  }
-  /* .card {
-    width: 25rem !important;
-    padding: 5rem !important;
-  } */
-  .card-img-top {
-    background-color: #3871ff;
-    border-radius: 50%;
-    padding: 1rem;
-    width: 5rem !important;
-    margin: auto;
-  }
-  .services-paragraph {
-    width: 80%;
+    .cards-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      top: 60px;
+      gap: 2rem;
+    }
+    .card {
+      border-radius: 0 !important;
+      width: 20rem !important;
+      height: 18rem !important;
+    }
+    .card-img-top {
+      background-color: #3871ff;
+      border-radius: 50%;
+      padding: 1rem;
+      width: 5rem !important;
+      margin: auto;
+    }
+    .services-paragraph {
+      width: 35%;
+    }
   }
   /* Tech Section */
-  .section-tech {
+  .tech-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3871ff;
-    padding: 1.5rem !important;
-  }
-  .img-tech {
-    width: 3rem;
+    padding: 5rem !important;
+    .tech-container {
+      text-align: start !important;
+      width: 40%;
+    }
+    .img-tech {
+      width: 3rem;
+    }
   }
   /* BRANDS SECTION */
   .brands-section {
     background-color: white;
-  }
-  .brand-card {
-    background-color: #3871ff !important;
-  }
-  .btn-brand-card {
-    background-color: transparent !important;
-    color: white !important;
+    h5 {
+      font-size: 2rem;
+      margin-top: 5rem;
+    }
+    .brand-images-container {
+      display: flex;
+      justify-content: center;
+      gap: 8rem;
+    }
+    .img-brand {
+      margin-top: 6rem;
+      width: 5rem;
+    }
+    .brand-card {
+      background-color: #3871ff !important;
+      width: 30rem !important;
+      position: relative;
+      top: 80px;
+    }
+    .btn-brand-card {
+      background-color: transparent !important;
+      color: white !important;
+    }
   }
   /* FOOTER */
   footer {
     background-color: #273244;
+    .footer-container {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center;
+      justify-content: space-around;
+    }
+    .footer-navbar {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+    }
+    .footer-first-child {
+      width: 24rem;
+    }
+    .footer-second-child {
+      display: flex;
+      flex-direction: column;
+    }
+    .img-tech {
+      width: 1.5rem !important;
+    }
+    .footer-about-me {
+      border-top: solid 1px white;
+    }
   }
 }
