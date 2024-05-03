@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
     <!--SCROLL ANIMATION -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER PRUEBA -->
@@ -62,7 +62,12 @@
 
     <!-- MAIN -->
     <main class="d-flex align-items-center main-container">
-      <div class="mainDiv">
+      <div
+        class="mainDiv"
+        data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <h1 class="text-light">
           We build beautifull and reliavel web solutions.
         </h1>
@@ -74,7 +79,12 @@
         <button class="btn1 text-secondary">Learn More</button>
         <button class="btn2">Our prices --></button>
       </div>
-      <div class="d-flex justify-content-end">
+      <div
+        class="d-flex justify-content-end"
+        data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <img
           class="img-asset"
           src="./img/asset-background.jpg"
@@ -85,12 +95,17 @@
 
     <!-- SERVICES SECTION -->
     <section class="services-section">
-      <h2 class="text-center text-light pt-2">Our Services</h2>
-      <p class="services-paragraph text-center text-secondary mx-auto">
+      <h2 class="text-center text-light pt-2" data-aos="fade-left" data-aos-duration="1500">Our Services</h2>
+      <p class="services-paragraph text-center text-secondary mx-auto" data-aos="fade-right" data-aos-duration="1500">
         We feel very strong about our skills when it comes to planing, designing
         and coding aplications. Here is what we love to do!
       </p>
-      <div class="cards-container">
+      <div
+        class="cards-container"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <div class="card p-2 text-center mb-4" style="width: 16rem">
           <img
             src="./img/develop-svgrepo-com (1).svg"
@@ -141,7 +156,12 @@
 
     <!-- TECH SECTION -->
     <section class="tech-section">
-      <div class="tech-container">
+      <div
+        class="tech-container"
+        data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <h3 class="text-sm-center text-lg-start text-light">
           We use cutting edge technology
         </h3>
@@ -155,7 +175,11 @@
           eum culpa voluptatum ipsum ullam autem?
         </p>
       </div>
-      <div class="">
+      <div
+        data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <div class="d-flex flex-column gap-2 align-items-center">
           <div class="d-flex gap-4">
             <img class="img-tech" src="./img/html5-01-svgrepo-com.svg" alt="" />
@@ -176,7 +200,12 @@
     </section>
 
     <!-- BRANDS SECTION -->
-    <section class="brands-section p-4">
+    <section
+      class="brands-section p-4"
+      data-aos="zoom-in"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <h5 class="text-center text-secondary">Clients we worked it</h5>
       <div class="brand-images-container m-3">
         <img class="img-brand" src="./img/tnw-svgrepo-com.svg" alt="" />
@@ -236,7 +265,7 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="p-4">
+    <footer>
       <div class="footer-container d-flex flex-column align-items-center p-3">
         <div class="footer-first-child">
           <h5 class="text-light text-start">compleet labs</h5>
@@ -303,14 +332,22 @@
         <div class="p-lg-4">
           <p class="text-light">Site developed by Matías Biasioli</p>
         </div>
-        <div class="p-lg-4">
+        <div class="footer-about-me-images p-lg-4">
           <a
             class="text-light text-decoration-none"
             href="portafolio-two-silk.vercel.app"
             >Portfolio:<img
               src="./img/linkport-svgrepo-com.svg"
               alt=""
-              style="width: 1.5rem"
+              style="width: 2rem"
+          /></a>
+          <a
+            class="text-light text-decoration-none"
+            href="https://github.com/matiasbiasioli"
+            >Github:<img
+              src="./img/github-142-svgrepo-com.svg"
+              alt=""
+              style="width: 2rem"
           /></a>
           <a
             class="text-light text-decoration-none"
@@ -323,6 +360,10 @@
         </div>
       </div>
     </footer>
+
+    <!-- scroll animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
     <!-- bootstrap script -->
     <script
@@ -330,7 +371,5 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <!-- scroll animation script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
