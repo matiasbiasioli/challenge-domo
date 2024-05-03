@@ -9,6 +9,9 @@
     text-align: center !important;
   }
   /* Main */
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -100,6 +103,7 @@
     align-items: center;
   }
 }
+
 /* ---------- TABLET I VIEW ------------ */
 @media (min-width: 440px) {
   /* Main */
