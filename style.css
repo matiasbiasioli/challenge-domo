@@ -27,6 +27,9 @@
       width: 80%;
       height: 80%;
     }
+    .mainDivNavPosition {
+      top: 45%;
+    }
     .img-asset {
       width: 80%;
     }
@@ -132,6 +135,9 @@
       width: 60%;
       height: 80%;
     }
+    .mainDivNavPosition {
+      top: 80%;
+    }
     .img-asset {
       width: 60%;
     }
@@ -147,6 +153,9 @@
       width: 60%;
       height: 80%;
     }
+    .mainDivNavPosition {
+      top: 50%;
+    }
   }
 }
 /* ----------- DESKTOP VIEW ----------------- */
@@ -161,6 +170,9 @@
   }
   .navbar-collapse {
     flex-grow: 0 !important;
+  }
+  .nav-item-icon {
+    display: flex;
   }
   /* Main */
   body {
